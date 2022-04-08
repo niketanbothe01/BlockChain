@@ -7,11 +7,11 @@
 | 15%  | Providing functional Node.JS application to process token distribution file                                                                                                                                                               | src/tokenDistribution.js                                                            |
 | 5%   | Providing access to github repo containing delivered assignment code                                                                                                                                                                      | documents/github_repo_url.txt                                                       |
 | 10%  | Providing complete and clear readme.md instructions for application execution of token distribution                                                                                                                                       | readme.md                                                                           |
-| 5%   | Providing Node.js application Docker container, along with clear instructions for building and executing distribution via Docker                                                                                                          | containers/cornelius-21126747-bcca-container.tar.gz readme.md                       |
+| 5%   | Providing Node.js application Docker container, along with clear instructions for building and executing distribution via Docker                                                                                                          | NiketanBlockChain-container.tar readme.md                       |
 | 5%   | Making Docker container available on Docker Hub                                                                                                                                                                                           | documents/docker_hub_url.txt                                                        |
-| 25%  | Providing 2-page report on process of development of contract and setting up of accounts across the platform                                                                                                                              | reports/cornelius-21126747-bcca-dev.docx                                            |
-| 20%  | Providing 1-page report on the Use and Purpose of Smart Contracts as demonstrated in your project work. Provide your thoughts and insight into the impact of the ability to create tokens in this manner, including any ethical concerns. | reports/cornelius-21126747-bcca-sc.docx                                             |
-| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/cornelius-21126747-bcca-recording.mov                                        |
+| 25%  | Providing 2-page report on process of development of contract and setting up of accounts across the platform                                                                                                                              | reports/NiketanBlockChain.docx                                            |
+| 20%  | Providing 1-page report on the Use and Purpose of Smart Contracts as demonstrated in your project work. Provide your thoughts and insight into the impact of the ability to create tokens in this manner, including any ethical concerns. | reports/BlockChain.docx                                             |
+| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/BlockChain.mov                                        |
 
 # Ethereum Accounts
 
@@ -135,5 +135,5 @@ Sample Value:
 
 # Closing
 
-If you hit any issues or want to clarify something, don't hestitate to contact me at x21126747@student.ncirl.ie<br />
+If you hit any issues or want to clarify something, don't hestitate to contact me at x20180837@student.ncirl.ie<br />
 **Good luck and have fun!**
