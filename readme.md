@@ -102,7 +102,7 @@ Sample Value:
 4. Modify src/addresses.txt, make sure you put correct ETH accounts that you want to transfer, put line space between each of them
 5. Make sure you still in BlockChain folder, type below command to run the application:
    ```npm
-   node src/tokenDistribution.js
+   node src/Distribution.js
    ```
 
 # How to Execute TRC Token Distribution Node Application (Docker)
