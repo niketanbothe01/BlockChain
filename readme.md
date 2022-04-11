@@ -11,7 +11,7 @@
 | 5%   | Making Docker container available on Docker Hub                                                                                                                                                                                           | documents/docker_hub_url.txt                                                        |
 | 25%  | Providing 2-page report on process of development of contract and setting up of accounts across the platform                                                                                                                              | reports/NiketanBlockChain.docx                                            |
 | 20%  | Providing 1-page report on the Use and Purpose of Smart Contracts as demonstrated in your project work. Provide your thoughts and insight into the impact of the ability to create tokens in this manner, including any ethical concerns. | reports/BlockChain.docx                                             |
-| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/BlockChain.mov                                        |
+| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/https://youtu.be/gBFNbNTO-XM                                        |
 
 # Ethereum Accounts
 
