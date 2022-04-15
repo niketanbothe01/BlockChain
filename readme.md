@@ -11,13 +11,13 @@
 | 5%   | Making Docker container available on Docker Hub                                                                                                                                                                                           | documents/docker_hub_url.txt                                                        |
 | 25%  | Providing 2-page report on process of development of contract and setting up of accounts across the platform                                                                                                                              | reports/NiketanBlockChain.docx                                            |
 | 20%  | Providing 1-page report on the Use and Purpose of Smart Contracts as demonstrated in your project work. Provide your thoughts and insight into the impact of the ability to create tokens in this manner, including any ethical concerns. | reports/BlockChain.docx                                             |
-| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/BlockChain.mov                                        |
+| 5%   | 5-7 Min Pre-recorded Demonstration displaying the operation of the contract.                                                                                                                                                              | videos/https://youtu.be/gBFNbNTO-XM                                        |
 
 # Ethereum Accounts
 
 ## Main Account
 
-- [MA_01](https://ropsten.etherscan.io/address/0xEd31b9ee14BdE262a76b873C33a8253C7Cd28020) 0xEd31b9ee14BdE262a76b873C33a8253C7Cd28020
+- [MA_01](https://ropsten.etherscan.io/token/0x2f814ccb88a752f5ba274d76fc65c2f9e5f264f0?a=0xed31b9ee14bde262a76b873c33a8253c7cd28020) 0xEd31b9ee14BdE262a76b873C33a8253C7Cd28020
 
 ## Secondary Accounts
 
@@ -29,39 +29,6 @@
 [Token Contract Address](https://ropsten.etherscan.io/address/0xEd31b9ee14BdE262a76b873C33a8253C7Cd28020)
 0xEd31b9ee14BdE262a76b873C33a8253C7Cd28020
 
-Instead of code the distribution formula in node,
-I create two new functions in Solidity contract to support token distribution.
-Below are the details about both functions.
-
-### Get Balance of Owner by Percentage
-
-```solidity
-function balanceOfOwnerByPercentage(uint256 percentageAmount) public view returns (uint256) {
-    return _balances[tokenOwner].mul(percentageAmount).div(100);
-}
-```
-
-### Parameter 1: percentageAmount (%)
-
-```solidity
-Sample Value:
-5
-```
-
-## Distribute Token
-
-```solidity
-function transferMultipleByPercentage(address[] memory addresses, uint256 percentageAmount) public returns (bool) {
-    uint256 amount = balanceOfOwnerByPercentage(percentageAmount).div(addresses.length);
-
-    for (uint i = 0; i < addresses.length; i++) {
-        _balances[tokenOwner] = _balances[tokenOwner].sub(amount, "transfer amount exceeds balance");
-        _balances[addresses[i]] = _balances[addresses[i]].add(amount);
-        emit Transfer(tokenOwner, addresses[i], amount);
-    }
-    return true;
-}
-```
 
 ### Parameter 1: Address[] (Pass account addresses as array)
 
@@ -102,7 +69,7 @@ Sample Value:
 4. Modify src/addresses.txt, make sure you put correct ETH accounts that you want to transfer, put line space between each of them
 5. Make sure you still in BlockChain folder, type below command to run the application:
    ```npm
-   node src/tokenDistribution.js
+   node src/Distribution.js
    ```
 
 # How to Execute TRC Token Distribution Node Application (Docker)
